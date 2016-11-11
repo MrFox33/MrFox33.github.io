@@ -50,3 +50,13 @@
 
 
 }
+@media (max-width:641px){
+.c_text{
+	font-size:75%;
+}
+.h_text{
+	font-size:200%;
+}
+
+
+}
