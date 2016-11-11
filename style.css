@@ -2,18 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 .show-logo{
-	display: block;
-    opacity: 1;
 
 }
 .show-logo>img{
 	position:absolute;
-	right:75%;
+	left:5%;
     padding: 0px;
     top: -10px;
     width: 10%;
     height: auto;
-    opacity: 1;
+
 
 }
 
