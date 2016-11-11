@@ -52,9 +52,8 @@
 @media (max-width:641px){
 .c_text{
 	font-size:90%;
-	bottom:30%;
 	position:absolute;
- 	margin-bottom: 20px;
+ 	margin-bottom: 100px;
 }
 .h_text{
 	font-size:200%;
