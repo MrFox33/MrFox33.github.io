@@ -17,14 +17,7 @@
 
 }
 
-.n_buttons{
-	display:block;
-	float: right;
-	position:relative;
-	
-	font-family: Lato, Times ;
-	font-size: 110%;
-}
+
 .c_text{
 	font-family: Lato, "Work Sans",Georgia;
 	text-transform: uppercase;
