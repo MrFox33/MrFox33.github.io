@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.show-logo{
+	display: block;
+    opacity: 1;
+
+}
+.show-logo>img{
+	position:absolute;
+	right:75%;
+    padding: 0px;
+    top: -10px;
+    width: 150px;
+    height: auto;
+    opacity: 1;
+
+}
+
+.n_buttons{
+	display:block;
+	float: right;
+	position:relative;
+	right:0px;
+	font-family: Lato, Times ;
+	font-size: 110%;
+}
+.c_text{
+	font-family: Lato, "Work Sans",Georgia;
+	text-transform: uppercase;
+	font-size: 100px;
+	color:white;
+	background-color: #d3d3d3;
+
+}
+.h_text{
+	font-weight: bold;
+	font-size: 50px;
+	color: red;
+	top:50px;
+}
+.logo_2{
+	display:block;
+	vertical-align: middle;
+	height: 50%;
+
+}
+.logo_2>img{
+	width: 65%;
+	height: auto;
+
+
+}
