@@ -109,7 +109,7 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 641px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
