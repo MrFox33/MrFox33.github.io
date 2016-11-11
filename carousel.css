@@ -134,6 +134,16 @@ body {
     font-size: 21px;
     line-height: 1.4;
   }
+  .carousel-caption a {
+    margin-bottom: 50px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .carousel-caption h1 {
+    margin-bottom: 50px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
 
   .featurette-heading {
     font-size: 50px;
