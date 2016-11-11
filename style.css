@@ -36,7 +36,6 @@
 	font-weight: bold;
 	font-size: 400%;
 	color: red;
-	top:;
 }
 .logo_2{
 	display:block;
@@ -53,6 +52,7 @@
 @media (max-width:641px){
 .c_text{
 	font-size:75%;
+	bottom:30%;
 }
 .h_text{
 	font-size:200%;
