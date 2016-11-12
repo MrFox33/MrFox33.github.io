@@ -2,7 +2,7 @@
  // $(document).ready(function(){
     
 	// hide .navbar first
-	$(".navbar").hide();
+	//$(".navbar").hide();
 	//fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
@@ -20,4 +20,5 @@
 	});
 
 });
-  }(jQuery));
+  }(jQuery);
+

@@ -28,7 +28,6 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="scrolling-nav.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
@@ -37,46 +36,53 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body id="page-top">
+  <body>
 
-        <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top">INSURATO</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a class="page-scroll" href="#page-top">Strona Główna</a></li>
-            <li><a class="page-scroll" href="#about">O Nas</a></li>
-            <li><a class="page-scroll" href="#contact">Kontakt</a></li>
-            <!--li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top " >
+          <div class="container">
+            <div class="navbar-header show-logo">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--a class="navbar-brand " href="#"><img src="./Images/Coca-Cola-Logo-PNG.png"></a-->
+              <!--a class="navbar-brand" href="#">Insurato</a-->
+              <img alt="Brand" class="show-logo" src="./Images/Coca-Cola-Logo-PNG.png">
+            </div>
+            <div id="navbar" class="navbar-collapse collapse " style="display:inline-block;">
+              <ul class="nav navbar-nav n_buttons">
+                <li class="active n_buttons"><a href="#">Strona Główna</a></li>
+                <li><a class="n_buttons" href="#about">O nas</a></li>
+                <li><a class="n_buttons" href="#contact">Kontakt</a></li>
+                <li class="dropdown n_buttons ">
+                  <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li-->
-          </ul>
-          
-        </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </nav>
+
       </div>
-    </nav>
+    </div>
+
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide " data-ride="carousel"  style="background-color: #3e3e3e;">
+    <div id="myCarousel" class="carousel slide " data-ride="carousel"  style="background-color: #d3d3d3;">
       <!-- Indicators -->
       <ol class="carousel-indicators " >
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -159,11 +165,11 @@
 
       <!-- START THE FEATURETTES -->
 
-      <hr id="about" class="featurette-divider">
+      <hr class="featurette-divider">
 
-      <div  class="row featurette">
+      <div class="row featurette">
         <div class="col-md-7">
-          <h2  class="featurette-heading">O NAS <span class="text-muted"></span></h2>
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
@@ -183,22 +189,31 @@
         </div>
       </div>
 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
       <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
 
     </div><!-- /.container -->
 
-      <div  id="contact" class="contact">
-        <div class="contact_items">
-        <h1>Dane Kontaktowe:</h1>
-        <p >Imię i Nazwisko: <p>
-        <p>Hassan absd</p>
-
-
- <!-- FOOTER -->
-      <footer >
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; </p>
-      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -211,10 +226,5 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="./js/nav_bar.js"></script>
-    <script src="./js/active.js"></script>
-    <!--script src="./js/onScroll.js"></script-->
-    <script src="./js/scrolling-nav.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-
   </body>
 </html>

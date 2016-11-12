@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-html, body {
-    padding: 0;
-    margin: 0;
-} 
+
 .show-logo{
 
 }
@@ -32,13 +29,14 @@ html, body {
 	text-transform: uppercase;
 	font-size: 100%;
 	color:white;
-	background-color: #3e3e3e;
+	background-color: #d3d3d3;
 
 }
 .h_text{
 	font-weight: bold;
 	font-size: 400%;
 	color: red;
+	top:;
 }
 .logo_2{
 	display:block;
@@ -49,32 +47,6 @@ html, body {
 .logo_2>img{
 	width: 65%;
 	height: auto;
-}
-
-.contact{
-	display: block;
-	position:relative;
-	left:0;
-	width:100%;
-	height:105vh;
-	background-color: #e1e1e1;
-	z-index: -1;
-}
-
-
-@media (max-width:641px){
-.c_text{
-	font-size:75%;
-	margin-bottom: 300px;
-}
-.h_text{
-	font-size:200%;
-	margin-bottom:10px;
-}
-.logo_2{
-	margin bottom:300px;
-
-}
 
 
 }
