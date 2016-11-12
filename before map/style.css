@@ -32,7 +32,7 @@ html, body {
 	text-transform: uppercase;
 	font-size: 100%;
 	color:white;
-	background-color: #d6d6d6;
+	background-color: #3e3e3e;
 
 }
 .h_text{
@@ -77,9 +77,4 @@ html, body {
 }
 
 
-}
-
-#map {
-     height: 500px;
-     width: 100%;
 }

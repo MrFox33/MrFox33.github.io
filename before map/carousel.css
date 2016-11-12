@@ -64,7 +64,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 100vh;
-  background-color: #d6d6d6;
+  background-color: #3e3e3e;
 
 }
 .carousel-inner > .item > div {
