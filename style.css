@@ -30,7 +30,7 @@ html, body {
 .c_text{
 	font-family: Lato, "Work Sans",Georgia;
 	text-transform: uppercase;
-	font-size: 100%;
+	font-size: 300%;
 	color:white;
 	background-color: #d6d6d6;
 
@@ -52,13 +52,7 @@ html, body {
 }
 
 .contact{
-	display: block;
-	position:relative;
-	left:0;
-	width:100%;
-	height:105vh;
-	background-color: #e1e1e1;
-	z-index: -1;
+	margin-top:0px;
 }
 
 
@@ -75,7 +69,9 @@ html, body {
 	margin bottom:300px;
 
 }
-
+#map {
+	height:300px;
+}
 
 }
 
