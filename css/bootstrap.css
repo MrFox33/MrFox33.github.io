@@ -3980,6 +3980,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  margin-left: 30px;
 }
 .nav > li > a {
   position: relative;
@@ -4596,6 +4597,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #5f5f5f;
   border-color: #5f5f5f;
   opacity: 1;
+  letter-spacing:1px;
 
 }
 .navbar-inverse .navbar-brand {
@@ -4613,17 +4615,32 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   color: #f1f1f1 !important;
 }
-.navbar-inverse .navbar-nav > li > a:hover,
+
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: white;
+  background-color: black;
+}
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #080808;
+  color: #fff !important;
+  background-color: black !important;
 }
+.navbar-brand .navbar-left .show-logo > .active > a,
+.navbar-brand .navbar-left .show-logo > .active > a:hover,
+.navbar-brand .navbar-left .show-logo > .active > a:focus{
+  color:#f1f1f1 !important;
+  background-color: #5f5f5f !important;
+
+
+}
+
+
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {

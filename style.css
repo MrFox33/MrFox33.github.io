@@ -7,25 +7,32 @@ html, body {
 body{
 
 	/*background-image: url('./Images/white_wall_hash.png');*/
-	background-color: white;
+	background-color: #fcfcfc;
 	font-family:"Segoe UI", "Open Sans", Arial, Helvetica, sans-serif !important;
 	
 }
 
 .show-logo{
+display:block;
 /*font-family: "Open Sans", Arial, Helvetica, sans-serif !important;*/
 position:absolute;
-left:4%;
-color: #f1f1f1 !important;
-font-size:300%;
-padding:15px;
+left:10%;
+color: #f1f1f1 ;
+font-size:250%;
+max-height: 200px
+
 }
+.show-logo:hover{
+
+text-decoration: none;
+color: black;
+
+
+}
+
+
 .show-logo>img{
 	position:absolute;
-   	top: -18px;
-    height:170%;
-    width: auto;
-    left:6%;
     
 
 }
@@ -60,7 +67,7 @@ padding:15px;
 
 }
 .logo_2>img{
-	width: 65%;
+	width: 40%;
 	height: auto;
 }
 
