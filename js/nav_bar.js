@@ -1,8 +1,8 @@
-(function ($) {
- // $(document).ready(function(){
-    
+/*(function ($) {
+  $(document).ready(function(){
+    if(window.innerWidth < 480){
 	// hide .navbar first
-	//$(".navbar").hide();
+	$(".navbar").hide();
 	//fade in .navbar
 	$(function () {
 		$(window).scroll(function () {
@@ -16,9 +16,9 @@
 			}
 		});
 
-	
+	}
 	});
 
 });
   }(jQuery);
-
+*/

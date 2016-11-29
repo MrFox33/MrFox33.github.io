@@ -12,30 +12,9 @@ body{
 	
 }
 
-.show-logo{
-display:block;
-/*font-family: "Open Sans", Arial, Helvetica, sans-serif !important;*/
-position:absolute;
-left:10%;
-color: #f1f1f1 ;
-font-size:250%;
-max-height: 200px
-
-}
-.show-logo:hover{
-
-text-decoration: none;
-color: black;
 
 
-}
 
-
-.show-logo>img{
-	position:absolute;
-    
-
-}
 
 .n_buttons{
 	/*display:block;
@@ -48,15 +27,15 @@ color: black;
 }
 .c_text{
 	/*font-family: "Open Sans", Arial, Helvetica, sans-serif !important;*/
-	text-transform: uppercase;
-	font-size: 300%;
-	color:#5a5a5a;
+	
+	font-size: 60px;
+	color: black;
 
 
 }
 .h_text{
 	font-weight: bold;
-	font-size: 400%;
+	font-size: 70px;
 	color: red;
 	opacity: 0.8;
 }
@@ -77,6 +56,11 @@ color: black;
 
 
 @media (max-width:641px){
+.show-logo{
+
+	max-height: 20px;
+	font-size:100%;
+}
 .c_text{
 	font-size:75%;
 	margin-bottom: 300px;
@@ -86,7 +70,7 @@ color: black;
 	margin-bottom:10px;
 }
 .logo_2{
-	margin bottom:300px;
+	margin bottom:50px;
 
 }
 #map {
