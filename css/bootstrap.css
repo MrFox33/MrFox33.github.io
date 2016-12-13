@@ -1335,8 +1335,8 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: red;
-  opacity: 0.70;
+  color: rgb(191,0,0);
+  opacity: .9;
 }
 .text-primary {
   color: #337ab7;
@@ -3122,9 +3122,9 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: red;
-  border-color: red;
-  opacity:0.85;
+  background-color: rgb(191,0,0);
+  border-color: rgb(191,0,0);
+
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -4639,12 +4639,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a:hover {
   color: white;
   background-color: black;
+  border-bottom: 4px solid rgb(191,0,0);
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: white !important;
   background-color: black;
+  border-bottom: 4px solid rgb(191,0,0);
 
 }
 
@@ -6353,12 +6355,12 @@ button.close {
   left: 0;
   width: 15%;
   font-size: 20px;
-  color: red;
+  color: rgb(191,0,0);
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
-  opacity: .5;
+  opacity: .7;
 }
 .carousel-control.left {
   /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
@@ -6380,7 +6382,7 @@ button.close {
 }
 .carousel-control:hover,
 .carousel-control:focus {
-  color: red;
+  color: rgb(191,0,0);
   text-decoration: none;
   filter: alpha(opacity=90);
   outline: 0;
@@ -6439,14 +6441,14 @@ button.close {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid red;
+  border: 1px solid rgb(191,0,0);
   border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: red;
+  background-color: rgb(191,0,0);
 }
 .carousel-caption {
   position: absolute;
